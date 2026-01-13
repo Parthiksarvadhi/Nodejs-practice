@@ -18,5 +18,6 @@ const basename=path.basename('file:///Users/sarvadhisolution/Desktop/Node-js/nod
 console.log(basename);
 
 console.log(path.dirname('/node-practice1/path-module.js'));// aa file no directory batave che
-
+console.log('-------------------');
 console.log(path.parse('/node-practice1/path-module.js'));// aa file no full object batave che
+console.log(path.resolve('fs-module.js'));// aa file no absolute path batave che
